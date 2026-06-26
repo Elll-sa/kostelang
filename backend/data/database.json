@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nama": "Admin Kos",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 1780461023462,
+      "nama": "dini restanti",
+      "email": "dini@gmail.com",
+      "password": "123123",
+      "role": "user"
+    }
+  ],
+  "kos": [
+    {
+      "id": 1,
+      "nama": "Kos Putri Melati",
+      "harga": 650000,
+      "lokasi": "Telang Indah",
+      "fasilitas": [
+        "Kasur",
+        "Lemari",
+        "Kipas Angin",
+        "KM Dalam"
+      ],
+      "gambar": "https://i.pinimg.com/736x/4d/7a/32/4d7a32d9d489f1e05df066a8bbf0a9d1.jpg",
+      "status": "Tersedia"
+    },
+    {
+      "id": 2,
+      "nama": "Kos Putra Anggrek",
+      "harga": 550000,
+      "lokasi": "Telang Indah",
+      "fasilitas": [
+        "Kasur",
+        "Lemari",
+        "WiFi",
+        "Parkiran"
+      ],
+      "gambar": "https://i.pinimg.com/736x/02/a3/2e/02a32e125af09d9192d8c70cf9f318df.jpg",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1780467012695,
+      "nama": "Kos Putri Mawar",
+      "harga": 700000,
+      "lokasi": "Telang Indah",
+      "fasilitas": [
+        "Kasur",
+        "Kipas",
+        "Lemari",
+        "KM Dalam",
+        "Rak Sepatu"
+      ],
+      "gambar": "https://i.pinimg.com/1200x/26/10/70/261070a7a4519aebd064e35ba16a10ad.jpg",
+      "status": "Tersedia"
+    },
+    {
+      "id": 1780487177478,
+      "nama": "Kost Putra Kamboja",
+      "harga": 1000000,
+      "lokasi": "Telang Indah",
+      "fasilitas": [
+        "Kasur",
+        "Lemari",
+        "Ac",
+        "Km Luar"
+      ],
+      "gambar": "https://i.pinimg.com/1200x/64/7a/9e/647a9ec139bbfe444303078a55169522.jpg",
+      "status": "Tersedia"
+    }
+  ],
+  "pesanan": [
+    {
+      "id": 1780469520907,
+      "idUser": 1780461023462,
+      "namaUser": "dini restanti",
+      "emailUser": "dini@gmail.com",
+      "idKos": 1780467012695,
+      "namaKos": "Kos Putri Mawar",
+      "harga": 700000,
+      "namaPemesan": "diniii",
+      "noHp": "123123123123",
+      "tanggalMasuk": "2026-06-03",
+      "metodePembayaran": "QRIS",
+      "buktiPembayaran": "aov.png",
+      "statusPemesanan": "Dikonfirmasi",
+      "statusPembayaran": "Pembayaran Berhasil",
+      "tanggalPesan": "3/6/2026, 13.52.00"
+    }
+  ]
+}

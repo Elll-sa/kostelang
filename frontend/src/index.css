@@ -1,0 +1,158 @@
+body{
+  margin:0;
+}
+
+.detail-page {
+  background: #f7f4ef;
+  min-height: 100vh;
+  padding: 35px 80px;
+}
+
+.back-btn {
+  background: #614334;
+  color: white;
+  border: none;
+  padding: 11px 18px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.detail-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 35px;
+  align-items: start;
+}
+
+.detail-photo-main {
+  width: 100%;
+  height: 430px;
+  background: linear-gradient(135deg, #614334, #a47d59);
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 22px;
+}
+
+.detail-photo-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail-title {
+  background: white;
+  padding: 28px;
+  margin-top: 20px;
+  border-radius: 18px;
+}
+
+.kos-label {
+  color: #a47d59;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.detail-title h1 {
+  margin: 14px 0;
+  font-size: 34px;
+  color: #244341;
+}
+
+.detail-meta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  color: #49644e;
+}
+
+.sisa-kamar {
+  margin-top: 18px;
+  color: #9e5d58;
+  font-weight: bold;
+}
+
+.owner-box,
+.detail-section {
+  background: white;
+  margin-top: 18px;
+  padding: 25px;
+  border-radius: 18px;
+}
+
+.owner-box h3,
+.detail-section h2 {
+  color: #614334;
+  margin-bottom: 12px;
+}
+
+.detail-section ul {
+  padding-left: 20px;
+}
+
+.detail-section li {
+  margin-bottom: 8px;
+}
+
+.facility-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.facility-list span {
+  background: #c9b7a9;
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+
+.detail-right {
+  position: sticky;
+  top: 25px;
+}
+
+.booking-card {
+  background: white;
+  padding: 28px;
+  border-radius: 20px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+.booking-card h2 {
+  color: #244341;
+  font-size: 32px;
+}
+
+.booking-card p {
+  margin-bottom: 22px;
+}
+
+.chat-owner,
+.rent-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.chat-owner {
+  background: white;
+  color: #49644e;
+  border: 1px solid #49644e;
+}
+
+.rent-btn {
+  background: #a47d59;
+  color: white;
+  border: none;
+}
+
+.booking-card small {
+  color: #49644e;
+}
